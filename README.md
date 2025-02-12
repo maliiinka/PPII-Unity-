@@ -1,7 +1,7 @@
 <h1>Основные модули системы Unity</h1>
-
+<p align="center">
   <img src="https://avatars.mds.yandex.net/i?id=2c475b93f7ad3f6e0b5a87e00deb1dba82c98555-12967326-images-thumbs&n=13" alt="Unity Logo" align="center">
-
+</p>
 
 <h2><b>1. Модуль управления проектами</b></h2>
 <p>Позволяет пользователю создавать, загружать и управлять игровыми проектами.</p>
