@@ -11,9 +11,9 @@
   <li>Управление зависимостями (ассеты, библиотеки, плагины).</li>
   <li>Экспорт и импорт проекта.</li>
 </ul>
-<div style="text-align: center;">
+<p align="center">
   <img src="https://learn.microsoft.com/ru-ru/azure/communication-services/quickstarts/voice-video-calling/media/unity/create-a-new-project.png" alt="Модуль управления проектами">
-</div>
+</p>
 
 <h2><b>2. Модуль управления сценами</b></h2>
 <p>Реализует функционал создания и редактирования игровых сцен.</p>
@@ -22,6 +22,27 @@
   <li>Управление слоями и объектами сцены.</li>
   <li>Загрузка и выгрузка сцен во время выполнения.</li>
 </ul>
-<div style="text-align: center;">
+<p align="center">
   <img src="https://static.tildacdn.com/tild3865-6566-4130-b834-393435373630/aaf10af9c4089fb9be04.png" alt="Модуль управления сценами">
-</div>
+</p>
+<h2><b>3. Модуль построения игрового мира </b></h2>
+<p> Отвечает за добавление и настройку 3D- и 2D-объектов, а также за генерацию ландшафта. </p>
+<ul>
+<li>Генерация ландшафта (ручная, процедурная). </li>
+<li>Размещение игровых объектов. </li>
+<li>Управление материалами, текстурами и освещением. </li>
+</ul>
+<p align="center">
+  <img src="https://avatars.mds.yandex.net/i?id=d86be3a21246340b8fa17224fdcfc0f1_l-5291937-images-thumbs&n=13" alt="Модуль управления сценами">
+</p>
+
+<h2><b>4. Модуль управления персонажами</b></h2>
+<p> Отвечает за создание и настройку игровых персонажей.</p> 
+<ul>
+<li>Создание персонажей (игроки, NPC). </li>
+<li>Анимация (Animator Controller). </li>
+<li>Настройка физических параметров (масса, скорость, силы).</li>
+</ul>
+<p align="center">
+  <img src="https://i.pinimg.com/originals/65/8b/47/658b47d5147d29eaab2be5aebfdd972f.png" alt="Модуль управления сценами">
+</p>
