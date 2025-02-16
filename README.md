@@ -124,7 +124,7 @@
 <li>Запись и чтение состояния объектов.</li>
 <li>Автосохранение и загрузка последнего сохранения.</li>
 <li>Поддержка нескольких слотов сохранений.</li>
-https://i.ytimg.com/vi/VJh_kRdFxko/maxresdefault.jpg
+
 </ul> 
 <p align="center">
   <img src="https://i.ytimg.com/vi/VJh_kRdFxko/maxresdefault.jpg">
