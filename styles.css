@@ -1,0 +1,239 @@
+/* Основные стили */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Заголовок */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Montserrat', sans-serif;
+    animation: fadeInDown 1.5s ease-out;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-out;
+}
+
+/* Секции */
+.section {
+    padding: 80px 0;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+/* Список лабораторных */
+
+/* Стили для секции с лабораторными работами */
+#labs {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+#labs h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.lab-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.lab-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.lab-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.lab-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 20px;
+}
+
+.lab-content {
+    text-align: center;
+}
+
+.lab-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #007BFF;
+}
+
+.lab-content p {
+    font-size: 1em;
+    color: #666;
+    margin: 0;
+}
+
+/* Анимация появления карточек */
+.lab-card.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.lab-card.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.lab-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lab-list li {
+    margin: 15px 0;
+}
+
+.lab-list a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1.3em;
+    transition: color 0.3s ease;
+}
+
+.lab-list a:hover {
+    color: #0056b3;
+}
+
+/* Контент с сеткой */
+.grid-section {
+    padding: 80px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.grid-section.reverse .grid-container {
+    grid-template-columns: 1fr 1fr;
+    direction: rtl;
+}
+
+.text-block {
+    direction: ltr; /* Возвращаем текст в правильное направление */
+}
+
+.text-block h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.text-block ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.2em;
+}
+
+.image-block img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-block img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Анимации */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Футер */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 80px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
